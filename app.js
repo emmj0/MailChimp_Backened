@@ -14,9 +14,6 @@ app.get("/",function(req,res){
     res.sendFile(__dirname + "/signup.html")
 });
 
-// c3e2141137
-
-// 480e148f46f0ac43e843dfe17a98245f-us13
 
 app.post("/",function(req,res){
     const firstName = req.body.firstname;
